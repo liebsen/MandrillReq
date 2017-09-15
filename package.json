@@ -2,10 +2,11 @@
   "name": "requester",
   "version": "0.0.9",
   "description": "Mandrill Requester",
-  "main": "app.js"
-  "repository": {},
+  "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.12.2",
     "express": "^4.14.0",
+    "mandrill-api": "^1.0.45"
   },
   "engines": {
     "node": ">=0.10.0"
